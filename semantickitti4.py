@@ -1,4 +1,4 @@
-# visualize both image and point cloud from SemanticKITTI dataset
+# visualize both image and point cloud with color label from SemanticKITTI dataset
 
 import open3d.ml.torch as ml3d  # or open3d.ml.tf as ml3d
 import numpy as np

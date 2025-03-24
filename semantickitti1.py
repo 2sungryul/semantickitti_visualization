@@ -1,4 +1,4 @@
-# visualize semantickitti dataset
+# visualize semantickitti dataset(point cloud with color label)
 
 import open3d.ml.torch as ml3d  # or open3d.ml.tf as ml3d
 

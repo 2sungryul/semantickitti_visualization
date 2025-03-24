@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: MIT
 # ----------------------------------------------------------------------------
 
-# semantickitti dataset animation example
+# semantickitti dataset animation example(point cloud with color label)
 
 import open3d.ml.torch as ml3d  # or open3d.ml.tf as ml3d
 import numpy as np

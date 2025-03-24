@@ -42,6 +42,7 @@ def pred_custom_data(index, pcs, pipeline_r, pipeline_k):
     name = "{}".format(index)
 
     results_r = pipeline_r.run_inference(pcs)
+    print(type(results_r))
     pred_label_r = (results_r['predict_labels'] + 1).astype(np.int32)
     # Fill "unlabeled" value because predictions have no 0 values.
     pred_label_r[0] = 0
